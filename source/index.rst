@@ -13,8 +13,8 @@
 
    introduction
    installation_guide
-   macro_features
    function_features
+   macro_features
    faq
 
 
