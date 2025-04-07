@@ -3,7 +3,7 @@
 
 本节将指导您如何安装和配置Excel插件工具。
 
-1. 下载插件安装包。:download:`百度网盘 <https://pan.baidu.com/s/1tVFEpc2Ns2qY2PRy0zKY4w?pwd=6666>` 或 :download:`123网盘 <https://www.123912.com/s/l8Evvd-dWnd3>`
+1. 下载插件安装包。:download:`百度网盘 <https://pan.baidu.com/s/1Pn6VKiDf8v9R3z3X7vodXw?pwd=6666>` 或 :download:`123网盘 <https://www.123912.com/s/l8Evvd-kNnd3>`
 2. 双击 ``install.bat`` 等待安装完毕。
 3. 打开Excel，加载大约需要5秒，安装成功即可以在插件栏看到 ``知心`` 插件。
 
