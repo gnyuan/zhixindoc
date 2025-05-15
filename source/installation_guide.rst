@@ -13,10 +13,13 @@
    # 步骤1: 创建Python虚拟环境
    python -m venv venv
 
-   # 步骤2: 安装知心插件及其依赖包(使用阿里云镜像加速)
+   # 步骤2: 激活虚拟环境
+   .\venv\Scripts\activate
+
+   # 步骤3: 安装知心插件及其依赖包(使用阿里云镜像加速)
    pip install zhixinpy -i https://mirrors.aliyun.com/pypi/simple/
 
-   # 步骤3: 完成插件安装
+   # 步骤4: 完成插件安装
    zhixinpy install
 
    # 卸载插件(可选)
