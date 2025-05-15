@@ -27,8 +27,8 @@
 
 在安装 ``Python 3.11`` 或 ``Python 3.12`` 之后，按以下步骤操作：
 
-- 1 下载并执行 :download:`install.bat <_static/install.bat>` 完成安装。
-- 2 若需卸载，下载并执行 :download:`uninstall.bat <_static/uninstall.bat>`
+- 1 下载后解压 :download:`zhixinpy.7z <_static/zhixinpy.7z>` 得到 `install.bat` 以及 `uninstall.bat` 。
+- 2 执行 `install.bat` 安装知心插件。以若需卸载，则执行 `uninstall.bat` 。
 
 
 关注我们
