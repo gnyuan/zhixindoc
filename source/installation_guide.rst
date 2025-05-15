@@ -1,11 +1,34 @@
 🔧 安装指南 
-============
+------------
 
 本节将指导您如何安装和配置Excel插件工具。
 
-1. 下载插件安装包。:download:`百度网盘 <https://pan.baidu.com/s/177u4V45qGIKu7hhTLn7E9A?pwd=6666>` 或 :download:`123网盘 <https://www.123912.com/s/l8Evvd-djnd3>`
-2. 双击 ``install.bat`` 等待安装完毕。
-3. 打开Excel，加载大约需要5秒，安装成功即可以在插件栏看到 ``知心`` 插件。
+方法一：
+^^^^^^^^^^^^^^^^^
+
+在 ``Python 3.11`` 或 ``Python 3.12`` 环境下，按以下步骤操作：
+
+.. code-block:: bash
+
+   # 步骤1: 创建Python虚拟环境
+   python -m venv venv
+
+   # 步骤2: 安装知心插件及其依赖包(使用阿里云镜像加速)
+   pip install zhixinpy -i https://mirrors.aliyun.com/pypi/simple/
+
+   # 步骤3: 完成插件安装
+   zhixinpy install
+
+   # 卸载插件(可选)
+   # zhixinpy uninstall
+
+方法二：
+^^^^^^^^^^^^^^^^^^
+
+在安装 ``Python 3.11`` 或 ``Python 3.12`` 之后，按以下步骤操作：
+
+- 1 下载并执行 :download:`install.bat <_static/install.bat>` 完成安装。
+- 2 若需卸载，下载并执行 :download:`uninstall.bat <_static/uninstall.bat>`
 
 
 关注我们
@@ -19,10 +42,10 @@
 
 - 微信小助手：请添加我们的微信小助手以获取插件功能更新、使用心得等，拉进 ``微信交流群``。
 - 邮箱：您也可以通过邮箱 zhixin_excel@163.com 与我们联系。
-- QQ用户群号： ``1038197321``
 
 微信小助手二维码
 """"""""""""""""""
 
 .. image:: images/wechat.jpg
    :alt: 微信小助手二维码
+   :width: 300px
