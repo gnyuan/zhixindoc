@@ -2,15 +2,15 @@
 setlocal
 
 if not exist "venv" (
-    echo æœªæ£€æµ‹åˆ°è™šæ‹Ÿç¯å¢ƒ venvï¼Œæ— æ³•æ‰§è¡Œå¸è½½ã€‚
+    echo Î´¼ì²âµ½ĞéÄâ»·¾³ venv£¬ÎŞ·¨Ö´ĞĞĞ¶ÔØ¡£
     pause
     exit /b 1
 )
 
-echo æ­£åœ¨æ¿€æ´»è™šæ‹Ÿç¯å¢ƒå¹¶å¸è½½çŸ¥å¿ƒæ’ä»¶...
+echo ÕıÔÚ¼¤»îĞéÄâ»·¾³²¢Ğ¶ÔØÖªĞÄ²å¼ş...
 call venv\Scripts\activate.bat
 zhixinpy uninstall
 
 echo.
-echo å¸è½½å®Œæˆï¼
+echo Ğ¶ÔØÍê³É£¡
 pause
