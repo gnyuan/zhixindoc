@@ -10,6 +10,12 @@
 
 .. code-block:: bash
 
+   # 步骤0: 首先检查python版本
+   python --version
+   # 若版本为3.11或3.12，继续执行；否则，建议升级Python版本
+   # 若提示未安装Python，请前往官网下载安装
+   # 若提示版本过低，请升级Python版本
+
    # 步骤1: 创建Python虚拟环境
    python -m venv venv
 
@@ -17,7 +23,7 @@
    .\venv\Scripts\activate
 
    # 步骤3: 安装知心插件及其依赖包(使用阿里云镜像加速)
-   pip install zhixinpy -i https://mirrors.aliyun.com/pypi/simple/
+   pip install zhixinpy -i https://mirrors.cloud.tencent.com/pypi/simple/
 
    # 步骤4: 完成插件安装
    zhixinpy install
